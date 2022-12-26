@@ -467,6 +467,10 @@ body {
   display: flex;
   gap: 6.7rem;
 }
+.logo-section .container img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
 
 .class-section {
   background: #FFFFFF;
@@ -496,6 +500,8 @@ body {
   width: 24rem;
 }
 .class-section .selecter-div__img {
+  box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
   width: 240px;
   height: 260px;
   margin-bottom: 2rem;
@@ -520,6 +526,8 @@ body {
   width: 306px;
 }
 .parent-section .stat-img-div__img {
+  box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
   margin-right: auto;
   margin-left: auto;
   height: 166px;
@@ -563,6 +571,8 @@ body {
   margin-bottom: 4rem;
 }
 .layout-section .container__img {
+  box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
   margin-right: auto;
   margin-left: auto;
   width: 240px;
@@ -634,6 +644,8 @@ body {
   justify-content: space-between;
 }
 .tip-section .margin__img {
+  box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
   margin-bottom: 3rem;
   width: 229px;
 }
