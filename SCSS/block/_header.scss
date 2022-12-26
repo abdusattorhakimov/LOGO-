@@ -1,0 +1,31 @@
+.header {
+  background: $header-footer-bg;
+  padding: {
+    top: 2.5rem;
+    bottom: 2.5rem;
+  }
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .logo-link {
+    .logo-link__img {
+      width: 9.7rem;
+      height: 2rem;
+    }
+    .logo-link__img:focus {
+    }
+  }
+
+  .sitenav__list {
+    display: flex;
+    gap: 4rem;
+    a {
+      color: $white-color;
+    }
+    a:hover {
+      color: $main-hover-color;
+    }
+  }
+}
+
